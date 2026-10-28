@@ -1,0 +1,95 @@
+{
+  "siteSettings": {
+    "businessName": "Hamptons Spotless Services",
+    "phoneDisplay": "(631) 388-1263",
+    "phoneTel": "+16313881263",
+    "email": "john@hamptonsspotless.com",
+    "instagramUrl": "https://www.instagram.com/hamptonsspotlessservices/",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=61578389893364",
+
+    "heroLabel": "Hamptons Spotless Services",
+    "heroHeadingLines": ["Homes Maintained", "to an Exceptional", "Standard"],
+    "heroSubtext": "Premium home cleaning and discreet household staffing services for Hampton homes",
+    "heroCtaText": "Get in Touch",
+
+    "servicesLabel": "Our Services",
+    "servicesHeading": "Spotless and Discreet",
+    "servicesIntro": "Every home in the Hamptons deserves care that matches the standard it was built to. Our services are designed to be thorough, reliable, and completely discreet — whether we're preparing a home for the season, turning over a rental, or providing ongoing support throughout the year.",
+    "servicesCtaText": "Get in Touch",
+
+    "areasLabel": "Servicing the Hamptons",
+    "areasHeading": "Every Detail Attended to. Every Standard Met.",
+    "areasIntro": "From Southampton to the shores of Montauk, we provide premium home cleaning and household staff services across the Hamptons.",
+
+    "aboutLabel": "Who We Are",
+    "aboutParagraphs": [
+      "Hamptons Spotless Services, HSS provides professional home cleaning and household staffing solutions throughout the East End. From Southampton to Montauk, we deliver dependable, discreet support tailored to the needs of every area of your home, with a standard of care our clients consistently rely on.",
+      "We are more than a cleaning company operating in the Hamptons. We are a locally rooted service, built specifically for this community and aligned with the high standards it expects and deserves."
+    ],
+    "trustPoints": [
+      "Professional, highly skilled team",
+      "Discreet and confidential service",
+      "Safe, appropriate cleaning solutions",
+      "Fully licensed and insured operations",
+      "Reliable, on-time scheduling",
+      "Trusted local Hamptons-based business",
+      "Strong commitment to the local community"
+    ],
+
+    "testimonialsLabel": "Testimonials",
+
+    "contactLabel": "Get in Touch",
+    "contactHeadingLines": ["Let's Talk About", "Your Home"],
+    "contactPhoneLabel": "Phone",
+    "contactEmailLabel": "Email",
+    "contactFormHeading": "Service of Interest",
+    "contactFormAction": "https://formspree.io/f/xojkpoed",
+    "contactSubmitText": "Send Enquiry",
+    "successModalHeading": "Thank You",
+    "successModalBody": "We've received your enquiry and will be in touch shortly.\nIn the meantime, feel free to call us at",
+
+    "footerCopyright": "© 2026 Hamptons Spotless Services",
+
+    "seoTitle": "Hamptons Spotless Services — Premium Home Cleaning",
+    "seoDescription": "Premium home cleaning and trusted household staff services for Hamptons homes. Southampton, East Hampton, Bridgehampton, Sag Harbor, and beyond.",
+    "ogDescription": "Premium home cleaning and trusted household staff services for Hamptons homes.",
+    "schemaDescription": "Premium home cleaning and trusted household staff services for Hamptons homes",
+    "seoServiceTypes": [
+      "House Cleaning",
+      "Move-in Cleaning",
+      "Move-out Cleaning",
+      "Airbnb Cleaning",
+      "Pre-sale Cleaning",
+      "Exterior Cleaning",
+      "Post-construction Cleaning",
+      "Household Staffing"
+    ]
+  },
+
+  "services": [
+    {"title": "Full House Cleaning", "description": "Regular, seasonal, and deep cleaning services tailored to your home's needs.", "order": 1, "showInContactForm": true},
+    {"title": "Move-in & Move-out", "description": "Detailed cleaning to ensure properties are presented in pristine condition.", "order": 2, "showInContactForm": true},
+    {"title": "Airbnb & Vacation Rental", "description": "Professional turnover cleaning, ensuring every guest arrives to a spotless space.", "order": 3, "showInContactForm": true},
+    {"title": "Pre-sale Preparation", "description": "Comprehensive presentation cleaning to ensure your property is showcased at its absolute best for viewings and market launch.", "order": 4, "showInContactForm": true},
+    {"title": "Exterior Home Maintenance", "description": "Specialist care for exterior surfaces, including window cleaning, soft washing, façades, patios, decking, and outdoor furnishings.", "order": 5, "showInContactForm": true},
+    {"title": "Post-construction Cleaning", "description": "Meticulous after-build cleaning that transforms newly completed or renovated properties from construction site to pristine, move-in ready condition.", "order": 6, "showInContactForm": true},
+    {"title": "Household Staffing", "description": "We provide discreet recruitment and placement of experienced private household staff, carefully matched to your lifestyle, expectations, and standards. Professional training designed to enhance the skills, confidence, and standards of household staff.", "order": 7, "showInContactForm": true}
+  ],
+
+  "serviceAreas": [
+    {"name": "Southampton", "region": "NY", "order": 1},
+    {"name": "East Hampton", "region": "NY", "order": 2},
+    {"name": "Bridgehampton", "region": "NY", "order": 3},
+    {"name": "Sag Harbor", "region": "NY", "order": 4},
+    {"name": "Amagansett", "region": "NY", "order": 5},
+    {"name": "Water Mill", "region": "NY", "order": 6},
+    {"name": "Sagaponack", "region": "NY", "order": 7},
+    {"name": "Montauk", "region": "NY", "order": 8},
+    {"name": "Westhampton Beach", "region": "NY", "order": 9},
+    {"name": "Shelter Island", "region": "NY", "order": 10}
+  ],
+
+  "testimonials": [
+    {"quote": "Professional, discreet, and genuinely caring about the work they do. They understand the standard we expect and deliver it every time.", "attribution": "Homeowner Norris Lane, Bridgehampton", "order": 1}
+  ]
+}

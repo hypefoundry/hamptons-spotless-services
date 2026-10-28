@@ -1,0 +1,60 @@
+name: Build & deploy site
+
+on:
+  # Rebuild when code changes land on the default branch.
+  push:
+    branches: [main]
+  # Rebuild when content is published in Sanity (via a Sanity webhook that
+  # calls the GitHub "repository_dispatch" API with event_type sanity-publish).
+  repository_dispatch:
+    types: [sanity-publish]
+  # Allow manual rebuilds from the Actions tab.
+  workflow_dispatch:
+
+# Required for deploying to GitHub Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two deploys at once; let the newest win.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install build dependencies
+        working-directory: cms
+        run: npm ci
+
+      - name: Render site from Sanity
+        working-directory: cms
+        env:
+          SANITY_PROJECT_ID: ${{ secrets.SANITY_PROJECT_ID }}
+          SANITY_DATASET: ${{ secrets.SANITY_DATASET }}
+        run: node build.mjs
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: cms/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
