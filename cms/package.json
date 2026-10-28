@@ -1,0 +1,17 @@
+{
+  "name": "hamptons-spotless-site-build",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Build pipeline that renders index.html from Sanity content",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:fixture": "node build.mjs --fixture",
+    "seed": "node seed.mjs"
+  },
+  "dependencies": {
+    "@sanity/client": "^6.22.2",
+    "@sanity/image-url": "^1.1.0",
+    "nunjucks": "^3.2.4"
+  }
+}
