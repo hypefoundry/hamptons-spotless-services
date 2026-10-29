@@ -95,6 +95,12 @@ function buildData({raw, builder}) {
 
   const site = {
     ...s,
+    // Split the areas heading on "|" so editors can force a desktop line break
+    // (collapses to natural wrapping on mobile via .areas-hd-break).
+    areasHeadingLines: String(s.areasHeading || '')
+      .split('|')
+      .map((t) => t.trim())
+      .filter(Boolean),
     heroImage: resolveImage(builder, s.heroImage, DEFAULTS.heroImage),
     aboutImage: resolveImage(builder, s.aboutImage, DEFAULTS.aboutImage),
     ogImage: s.ogImage || DEFAULTS.ogImage,

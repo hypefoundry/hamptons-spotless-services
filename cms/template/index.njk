@@ -794,6 +794,7 @@
       }
       .areas-header .label { margin-bottom: 20px; }
       .areas-header h2 { font-size: 32px; }
+      .areas-hd-break { display: none; }
       .areas-list { display: none; }
       .areas-marquee {
         display: block;
@@ -1518,7 +1519,7 @@
   <div class="section-inner">
     <div class="areas-header fade-in">
       <span class="label">{{ site.areasLabel }}</span>
-      <h2>{{ site.areasHeading }}</h2>
+      <h2>{% for line in site.areasHeadingLines %}{{ line }}{% if not loop.last %}<br class="areas-hd-break">{% endif %}{% endfor %}</h2>
       <p>{{ site.areasIntro }}</p>
     </div>
     <div class="areas-list fade-in">
