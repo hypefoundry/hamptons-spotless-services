@@ -2,8 +2,12 @@ name: Build & deploy site
 
 on:
   # Rebuild when code changes land on the default branch.
+  # (Studio-only and docs changes don't affect the built site, so skip them.)
   push:
     branches: [main]
+    paths-ignore:
+      - 'cms/studio/**'
+      - '**.md'
   # Rebuild when content is published in Sanity (via a Sanity webhook that
   # calls the GitHub "repository_dispatch" API with event_type sanity-publish).
   repository_dispatch:
