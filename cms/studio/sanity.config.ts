@@ -1,8 +1,10 @@
 import {defineConfig} from 'sanity'
 import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
+import {EyeOpenIcon} from '@sanity/icons'
 import {schemaTypes} from './schemaTypes'
 import {structure} from './structure'
+import {PreviewTool} from './src/PreviewTool'
 
 const projectId = process.env.SANITY_STUDIO_PROJECT_ID || 'bbackimq'
 const dataset = process.env.SANITY_STUDIO_DATASET || 'production'
@@ -19,6 +21,13 @@ export default defineConfig({
   dataset,
 
   plugins: [structureTool({structure}), visionTool()],
+
+  // Adds a top-level "Preview" tab that renders the live site from the
+  // current (draft) content — see unpublished edits before publishing.
+  tools: (prev) => [
+    ...prev,
+    {name: 'preview', title: 'Preview', icon: EyeOpenIcon, component: PreviewTool},
+  ],
 
   schema: {
     types: schemaTypes,
