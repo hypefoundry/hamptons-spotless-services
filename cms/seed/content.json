@@ -8,23 +8,23 @@
     "facebookUrl": "https://www.facebook.com/profile.php?id=61578389893364",
 
     "heroLabel": "Hamptons Spotless Services",
-    "heroHeadingLines": ["Homes Maintained", "to an Exceptional", "Standard"],
-    "heroSubtext": "Premium home cleaning and discreet household staffing services for Hampton homes",
+    "heroHeadingLines": ["Properties Maintained", "to an Exceptional", "Standard"],
+    "heroSubtext": "Exceptional Care for Exceptional Homes. Full-service property management, maintenance, housekeeping, estate services, and discreet domestic staffing for Hamptons homeowners.",
     "heroCtaText": "Get in Touch",
 
     "servicesLabel": "Our Services",
-    "servicesHeading": "Spotless and Discreet",
-    "servicesIntro": "Every home in the Hamptons deserves care that matches the standard it was built to. Our services are designed to be thorough, reliable, and completely discreet — whether we're preparing a home for the season, turning over a rental, or providing ongoing support throughout the year.",
+    "servicesHeading": "Premium Property & Household Services",
+    "servicesIntro": "Every home in the Hamptons deserves thoughtful, professional care. Hamptons Spotless provides full-service property and estate management, overseeing everything from day-to-day housekeeping, maintenance, and seasonal preparation to exterior care, household staffing, domestic help recruitment, and estate clearing. Our services are tailored to each property and delivered with consistency, discretion, and attention to detail, whether you need ongoing management or support for a specific stage in your home’s lifecycle.",
     "servicesCtaText": "Get in Touch",
 
     "areasLabel": "Servicing the Hamptons",
-    "areasHeading": "Every Detail Attended to. Every Standard Met.",
-    "areasIntro": "From Southampton to the shores of Montauk, we provide premium home cleaning and household staff services across the Hamptons.",
+    "areasHeading": "Every Detail Attended to.|Every Standard Met.",
+    "areasIntro": "From Southampton to the shores of Montauk, we provide premium home services and household staff services across the Hamptons.",
 
     "aboutLabel": "Who We Are",
     "aboutParagraphs": [
-      "Hamptons Spotless Services, HSS provides professional home cleaning and household staffing solutions throughout the East End. From Southampton to Montauk, we deliver dependable, discreet support tailored to the needs of every area of your home, with a standard of care our clients consistently rely on.",
-      "We are more than a cleaning company operating in the Hamptons. We are a locally rooted service, built specifically for this community and aligned with the high standards it expects and deserves."
+      "Hamptons Spotless provides comprehensive property and estate management services throughout the East End. With 27 years of industry expertise, we care for Hamptons homes through full property management, housekeeping, maintenance, seasonal care, exterior services, household staffing, domestic help recruitment, estate clearing, and specialized property services.",
+      "We are more than a service company operating in the Hamptons. We are locally rooted and understand the unique demands of owning and maintaining a home here. Our approach is built around discretion, reliability, attention to detail, and a genuine understanding of the standards our clients expect."
     ],
     "trustPoints": [
       "Professional, highly skilled team",
@@ -39,7 +39,7 @@
     "testimonialsLabel": "Testimonials",
 
     "contactLabel": "Get in Touch",
-    "contactHeadingLines": ["Let's Talk About", "Your Home"],
+    "contactHeadingLines": ["Let’s Talk About", "Your Home"],
     "contactPhoneLabel": "Phone",
     "contactEmailLabel": "Email",
     "contactFormHeading": "Service of Interest",
@@ -50,30 +50,34 @@
 
     "footerCopyright": "© 2026 Hamptons Spotless Services",
 
-    "seoTitle": "Hamptons Spotless Services — Premium Home Cleaning",
-    "seoDescription": "Premium home cleaning and trusted household staff services for Hamptons homes. Southampton, East Hampton, Bridgehampton, Sag Harbor, and beyond.",
-    "ogDescription": "Premium home cleaning and trusted household staff services for Hamptons homes.",
-    "schemaDescription": "Premium home cleaning and trusted household staff services for Hamptons homes",
+    "seoTitle": "Hamptons Spotless Services — Property Management & Home Care",
+    "seoDescription": "Full-service property management, housekeeping, maintenance, estate services, and discreet household staffing for Hamptons homes — Southampton to Montauk.",
+    "ogDescription": "Full-service property management, housekeeping, estate services, and discreet household staffing for Hamptons homes.",
+    "schemaDescription": "Full-service property management, housekeeping, maintenance, estate services, and discreet household staffing for Hamptons homes.",
     "seoServiceTypes": [
+      "Property Management",
       "House Cleaning",
       "Move-in Cleaning",
       "Move-out Cleaning",
       "Airbnb Cleaning",
       "Pre-sale Cleaning",
       "Exterior Cleaning",
+      "Estate Clearing",
       "Post-construction Cleaning",
       "Household Staffing"
     ]
   },
 
   "services": [
-    {"title": "Full House Cleaning", "description": "Regular, seasonal, and deep cleaning services tailored to your home's needs.", "order": 1, "showInContactForm": true},
-    {"title": "Move-in & Move-out", "description": "Detailed cleaning to ensure properties are presented in pristine condition.", "order": 2, "showInContactForm": true},
-    {"title": "Airbnb & Vacation Rental", "description": "Professional turnover cleaning, ensuring every guest arrives to a spotless space.", "order": 3, "showInContactForm": true},
-    {"title": "Pre-sale Preparation", "description": "Comprehensive presentation cleaning to ensure your property is showcased at its absolute best for viewings and market launch.", "order": 4, "showInContactForm": true},
-    {"title": "Exterior Home Maintenance", "description": "Specialist care for exterior surfaces, including window cleaning, soft washing, façades, patios, decking, and outdoor furnishings.", "order": 5, "showInContactForm": true},
-    {"title": "Post-construction Cleaning", "description": "Meticulous after-build cleaning that transforms newly completed or renovated properties from construction site to pristine, move-in ready condition.", "order": 6, "showInContactForm": true},
-    {"title": "Household Staffing", "description": "We provide discreet recruitment and placement of experienced private household staff, carefully matched to your lifestyle, expectations, and standards. Professional training designed to enhance the skills, confidence, and standards of household staff.", "order": 7, "showInContactForm": true}
+    {"title": "Property Management", "description": "Hamptons Spotless is a complete, end-to-end approach to property and estate care. Rather than coordinating multiple cleaning companies, contractors, housekeepers, maintenance providers, and property managers, our clients have one trusted team overseeing it all.", "order": 1, "showInContactForm": true},
+    {"title": "Full House Cleaning", "description": "Regular, seasonal, and deep cleaning services tailored to your home’s needs.", "order": 2, "showInContactForm": true},
+    {"title": "Move-In & Move-Out Cleaning", "description": "Detailed cleaning to ensure properties are presented in pristine condition.", "order": 3, "showInContactForm": true},
+    {"title": "Airbnb & Vacation Rentals", "description": "Professional turnover cleaning, ensuring every guest arrives to a spotless space.", "order": 4, "showInContactForm": true},
+    {"title": "Pre-Sale Preparation", "description": "Comprehensive presentation cleaning to ensure your property is showcased at its absolute best for viewings and market launch.", "order": 5, "showInContactForm": true},
+    {"title": "Exterior Maintenance", "description": "Specialist care for exterior surfaces, including window cleaning, soft washing, façades, patios, decking, and outdoor furnishings.", "order": 6, "showInContactForm": true},
+    {"title": "Estate Clearing", "description": "Professional and discreet clearing, sorting, removal, and coordination of household contents during estate transitions, downsizing, relocation, or property preparation.", "order": 7, "showInContactForm": true},
+    {"title": "Post-Construction Cleaning", "description": "Meticulous after-build cleaning that transforms newly completed or renovated properties from construction site to pristine, move-in ready condition.", "order": 8, "showInContactForm": true},
+    {"title": "Household Staffing", "description": "Discreet recruitment and placement of experienced private household staff, with thoroughly vetted candidates.", "order": 9, "showInContactForm": true}
   ],
 
   "serviceAreas": [
