@@ -2,3 +2,13 @@
 .context/
 node_modules/
 *.log
+
+# CMS build output & secrets
+cms/dist/
+.env
+.env.*
+
+# Sanity Studio
+cms/studio/dist/
+cms/studio/.sanity/
+
